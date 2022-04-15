@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.background2{
+    background: rgba(0, 0, 0, 0.7) url('img/BITS-PILANI.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 10px;
+}
+
+.bigtxt , .clgpara{
+    color: white;
+    padding: 1%;
+    align-items: center;
+
+}
+
+.bitspilani{
+  font-size: 30px;
+  color: yellow;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+}
+
+/* GOG */
+
+/* body {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 50;
+  } */
+  
+  /* Styling the area of the slides */
+  #slideshow {
+  overflow: hidden;
+  height: 75vh;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 2%;
+  }
+  
+  /* Style each of the sides
+  with a fixed width and height */
+  .slide {
+  float: left;
+  height: 75vh;
+  width: 75rem;
+  }
+  
+  /* Add animation to the slides */
+  .slide-wrapper {
+  /* Calculate the total width on the
+  basis of number of slides */
+  width: calc(75rem * 7);
+  
+  /* Specify the animation with the
+  duration and speed */
+  animation: slide 20s ease infinite;
+  }
+  
+  /* Set the background color
+  of each of the slides */
+  /* .slide:nth-child(1) {
+  background: green;
+  }
+  
+  .slide:nth-child(2) {
+  background: pink;
+  }
+  
+  .slide:nth-child(3) {
+  background: red;
+  }
+  
+  .slide:nth-child(4) {
+  background: yellow;
+  } */
+  
+  /* Define the animation
+  for the slideshow */
+  @keyframes slide {
+  /* Calculate the margin-left for
+  each of the slides */
+  13% {
+    margin-left: 0px;
+  }
+  
+  24% {
+    margin-left: calc(-75rem * 1);
+  }
+  
+  36% {
+    margin-left: calc(-75rem * 2);
+  }
+  
+  48% {
+    margin-left: calc(-75rem * 3);
+  }
+
+  60% {
+    margin-left: calc(-75rem * 4);
+  }
+
+  72% {
+    margin-left: calc(-75rem * 5);
+  }
+  84% {
+    margin-left: calc(-75rem * 6);
+  }
+  }
+  

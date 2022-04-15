@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background3{
+    background-image: url(img/tp1/IMG-20210523-WA0062.jpg);
+    background-size: cover;
+    background-blend-mode: blur;
+    padding: 10px;
+    filter: blur(8px);
+  -webkit-filter: blur(5px);
+  
+}
+
+.Ach{
+    z-index: 2;
+    background-color: blanchedalmond;
+}
